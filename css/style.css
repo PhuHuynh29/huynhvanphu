@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+	width: 100%; height: 90px; font-family: "Montserrat", sans-serif; font-size: 14px; color: #090909; z-index: 2; position: absolute; position: fixed
+}
+header:hover{
+	background-color: #FFFFFF
+}
+.logo{
+	width: 20%; padding-top: 5px 
+}
+.logo a{
+	width: 100%; padding-top: 10px; 
+}
+.logo-100{
+	width: 100%
+}
+.logo p{
+	font-size: 14px; padding-top: 10px;
+}
+.tt{
+	width:45%; color: #090909 
+}
+.tk{
+	width: 40%; padding-top: 20px
+}
+.tk-control{
+	width: 100%; height: 35px; text-align: center; font-family: "Montserrat", sans-serif;border: #090909 1px solid; border-top: none; border-left: none; border-right: none;
+	font-size: 14px; padding-top: 15px;
+		
+}
+.tagbar{
+	width: 15%; display: flex; justify-content: space-between; padding-top: 40px;
+}
+.tagbar a{
+	color: #666666
+}
+.tagbar a:hover{
+	color: #BE89CB
+}
+.link{
+	text-decoration: none; color:#090909
+}
+.banner{
+	width: 100%; min-height: 800px; left: 0; top:0
+}
+.banner1{
+	width: 100%; min-height: 900px; position: relative
+}
+.banner1 img{
+	width: 100%; height: 900px
+}
+.banner2{
+	width: 100%; min-height: 900px;
+}
+.banner1 img{
+	width: 100%; height: 1000px
+}
+.caption{
+	 width: 50% ;left: 10%; top: 60%; position: absolute
+}
+.caption h1{
+	color: white; font-size: 50px; margin-bottom: -10px
+}
+.caption p{
+	color: white
+}
+/*NẰM TRONG FILE style-carousel của buổi 6 thầy gửi file để làm bài*/
+/*DỜI NÚT NAV SANG HAI BÊN TRAI PHẢI CỦA HÌNH - Nhớ đổi tên #id cho giống với id của banner*/
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#BE89CB;
+      text-decoration: none; }
+/*PHẦN MAIN*/
+.art-ct{
+	width: 100%; height: auto
+}
+.art-ct:hover{
+	color: #BE89CB
+}
+.art-ct p{
+	text-align: start; font-size: 20px; margin-bottom: 7px; margin-top: 1px
+}
+.art-tt{
+	text-align: start; color: #070606; font-size: 20px; margin-bottom: 7px
+}
+.art-day{
+	text-align: start; font-family:"Montserrat", sans-serif; font-size: 12px; margin-bottom: 10px
+}
+.tagbox{
+	display: flex; justify-content: flex-start
+}
+.tagbox1{
+	width: auto; height: auto; padding: 5px ;background-color: #BE89CB; text-align: center; color: white; font-family:"Montserrat", sans-serif; font-size: 9px; margin-right: 2px
+}
+.margintop{
+	margin-top: 50px
+}
+.link{
+	text-decoration: none; color: #070606
+}
+/*Mục nội dung 2*/
+.art-ct2{
+	width: 100%; height: auto; position: relative; left: 0; top: 0
+}
+.khung2{
+	width: 50%; height: auto; background-color: white; position:absolute; left:8%; top: 50%; padding: 30px
+}
+.khung2 h2{
+	font-size: 37px; padding-top: -10px; margin-top: -5px
+}
+.margintop-{
+	margin-top: -20px
+}
+.khung{
+	width: 100%; height: auto
+}
+.khung h2{
+	font-size: 44px; margin-bottom: -1px; margin-top: 23px
+}
+.khung1 {
+	width: 100%; height: auto
+}
+.tagbox2{
+	display: flex
+}
+.marginbot{
+	margin-bottom: 5px
+}
+footer{
+	width: 100%; height: 0 auto; background-color: #303030; margin-top: 40px; padding: 20px
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none
+}
+.menu ul li a{
+	text-decoration: none; color:#666666;
+}
+.texttrang{
+	color: white
+}
+.logo-ft{
+	width: 15%; margin-top: 30px
+}
+.ft{
+	width: 100%; height: auto; display: flex; justify-content: space-between; margin-bottom: 30px
+}
+.ft-nd{
+	width: 25%; height: 0 auto; 
+}
+.ft-nd h3{
+	color: #666666
+}
+.tt{
+	width: 100%; height: 0 auto; font-size: 13px; color: #666666
+}
+.tt a{
+	text-decoration: none; color: #666666; font-weight: bold
+}
+.tt a:hover{
+	color: #BE89CB
+}
+.menu ul li a:hover{
+	color: #BE89CB
+}
+.bold{
+	font-weight: bold
+}
+.form-control{
+	padding: 8px; margin: 10px 0px; width: 100%
+}
+.btn{
+	width: 50%; height: auto; padding: 20px; margin-top: 10px; background-color: #BE89CB; border: 1px solid #BE89CB; color:#070606
+		; text-align: start; font-size: 15px; font-family: "Montserrat", sans-serif; cursor: pointer
+}
+.btn:hover{
+	color: white
+}
+#lienhe h1{
+ font-size: 26px
+}
+.tingizay{
+	font-weight: bold; margin-top: -10px; font-size: 20px; margin-bottom: 10px; font-family: "Montserrat", sans-serif;
+}
+.fontmon{
+	font-family: "Montserrat", sans-serif; font-size: 15px
+}
